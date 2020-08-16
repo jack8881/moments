@@ -472,5 +472,5 @@ $("#masking").on('click', function() {
     "fullScreen",
     "close"
   ],
-});
+})
 })
