@@ -473,4 +473,4 @@ $("#masking").on('click', function() {
     "close"
   ],
 });
-});
+})
