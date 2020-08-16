@@ -498,13 +498,13 @@ $("#babyparents").on('click', function() {
       }
     },
     {
-      src  : 'images/babyparents/3.jpg',
+      src  : 'images/babyparents/3.JPG',
       opts : {
         caption : '',
       }
     },
     {
-      src  : 'images/babyparents/2.jpg',
+      src  : 'images/babyparents/2.JPG',
       opts : {
         caption : '',
       }
@@ -528,7 +528,7 @@ $("#babyparents").on('click', function() {
       }
     },
     {
-      src  : 'images/babyparents/10.jpg',
+      src  : 'images/babyparents/10.JPG',
       opts : {
         caption : '',
       }
@@ -552,7 +552,7 @@ $("#babyparents").on('click', function() {
       }
     },
     {
-      src  : 'images/babyparents/15.jpg',
+      src  : 'images/babyparents/15.JPG',
       opts : {
         caption : '',
       }
@@ -588,7 +588,7 @@ $("#babyparents").on('click', function() {
       }
     },
     {
-      src  : 'images/babyparents/24.jpg',
+      src  : 'images/babyparents/24.JPG',
       opts : {
         caption : '',
       }
