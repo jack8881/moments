@@ -372,7 +372,7 @@ $("#baby").on('click', function() {
 $("#babybump").on('click', function() {
   $.fancybox.open([
     {
-      src  : 'images/maternity/14.jpg',
+      src  : 'images/maternity/14.JPG',
       opts : {
         caption : '',
       }
@@ -384,7 +384,7 @@ $("#babybump").on('click', function() {
       }
     },
     {
-      src : 'images/maternity/15.jpg',
+      src : 'images/maternity/15.JPG',
       opts : {
         caption : '',
       }
@@ -396,7 +396,7 @@ $("#babybump").on('click', function() {
       }
     },
     {
-      src : 'images/maternity/10.jpg',
+      src : 'images/maternity/10.JPG',
       opts : {
         caption : '',
       }
@@ -414,7 +414,7 @@ $("#babybump").on('click', function() {
       }
     },
     {
-      src : 'images/maternity/12.jpg',
+      src : 'images/maternity/12.JPG',
       opts : {
         caption : '',
       }
@@ -426,13 +426,13 @@ $("#babybump").on('click', function() {
       }
     },
     {
-      src : 'images/maternity/20.jpg',
+      src : 'images/maternity/20.JPG',
       opts : {
         caption : '',
       }
     },
     {
-      src : 'images/maternity/6.jpg',
+      src : 'images/maternity/6.JPG',
       opts : {
         caption : '',
       }
@@ -450,19 +450,19 @@ $("#babybump").on('click', function() {
       }
     },
     {
-      src : 'images/maternity/18.jpg',
+      src : 'images/maternity/18.JPG',
       opts : {
         caption : '',
       }
     },
     {
-      src : 'images/maternity/21.jpg',
+      src : 'images/maternity/21.JPG',
       opts : {
         caption : '',
       }
     },
     {
-      src : 'images/maternity/17.jpg',
+      src : 'images/maternity/17.JPG',
       opts : {
         caption : 'Second caption',
     }
