@@ -170,7 +170,7 @@ $("#baby").on('click', function() {
       }
     },
     {
-      src  : 'images/baby/4.jpg',
+      src  : 'images/baby/4.JPG',
       opts : {
         caption : '',
       }
@@ -182,7 +182,7 @@ $("#baby").on('click', function() {
       }
     },
     {
-      src  : 'images/baby/7.jpg',
+      src  : 'images/baby/7.JPG',
       opts : {
         caption : '',
       }
@@ -206,13 +206,13 @@ $("#baby").on('click', function() {
       }
     },
     {
-      src  : 'images/baby/32.jpg',
+      src  : 'images/baby/32.JPG',
       opts : {
         caption : '',
       }
     },
     {
-      src  : 'images/baby/33.jpg',
+      src  : 'images/baby/33.JPG',
       opts : {
         caption : '',
       }
@@ -272,7 +272,7 @@ $("#baby").on('click', function() {
       }
     },
     {
-      src  : 'images/baby/60.jpg',
+      src  : 'images/baby/60.JPG',
       opts : {
         caption : '',
       }
@@ -285,20 +285,20 @@ $("#baby").on('click', function() {
       }
     },
     {
-      src  : 'images/baby/61.jpg',
+      src  : 'images/baby/61.JPG',
       opts : {
         caption : '',
       }
     },
     {
-      src  : 'images/baby/62.jpg',
+      src  : 'images/baby/62.JPG',
       opts : {
         caption : '',
       }
     },
     
     {
-      src  : 'images/baby/63.jpg',
+      src  : 'images/baby/63.JPG',
       opts : {
         caption : '',
       }
@@ -322,7 +322,7 @@ $("#baby").on('click', function() {
       }
     },
     {
-      src  : 'images/baby/70.jpg',
+      src  : 'images/baby/70.JPG',
       opts : {
         caption : '',
       }
