@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+
+<body>
+    <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo">
+            <!--
+            <h1>Navanit Patel</h1>
+            -->
+          </a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="index.html#header" class="smoothScroll">Home</a></li>
+          <li><a href="index.html#about" class="smoothScroll">About</a></li>
+          <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="gallery.html" class="smoothScroll">Gallery</a></li>
+          <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--  End section navbar -->
+
+    <div class="container">
+        <div class="row">
+                <div class="container-fluid" style="margin-bottom: 50px;">
+                    <div class="text-center">
+                        <h2 style="margin-top: 50px;font-family: poppins; font-weight: 900;">
+                            #GALLERY
+                        </h2>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul style="margin-bottom: 50px;">
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".babyparents">Baby+Parents</li>
+                        <li data-filter=".babybump">Baby Bump</li>
+                        <li data-filter=".props">Baby Props</li>
+                        <li data-filter=".couple">Couple</li>
+                        <li data-filter=".family">Family</li>
+                        <li data-filter=".industrial">Industrial</li>
+                        <li data-filter=".interior">Interior</li>
+                        <li data-filter=".masking">Masking</li>
+                        <li data-filter=".hair">Long-hair</li>
+                        <li data-filter=".myself">Myself</li>
+                        <li data-filter=".prewedding">Pre-Wedding</li>
+                        <li data-filter=".product">Product</li>
+                    </ul>
+                </div>
+                <div class="portfolio-container">
+                    <div class="col-lg-4 col-md-6 imag babyparents" id="test">
+                        <img src="deep/babyparents/1.jpg" alt="img" id="dynamic">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/1.JPG" data-fancybox="*">
+                            <img src="deep/babybump/1.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/1.jpg" data-fancybox="*">
+                            <img src="deep/props/1.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/1.jpg" data-fancybox="*">
+                            <img src="deep/couple/1.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/1.jpg" data-fancybox="*">
+                            <img src="deep/family/1.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag industrial">
+                        <a href="deep/industrial/1.JPG" data-fancybox="*">
+                            <img src="deep/industrial/1.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/1.JPG" data-fancybox="*">
+                            <img src="deep/interior/1.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/1.JPG" data-fancybox="*">
+                            <img src="deep/masking/1.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/1.jpg" data-fancybox="*">
+                            <img src="deep/hair/1.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag myself">
+                        <a href="deep/myself/1.jpg" data-fancybox="*">
+                            <img src="deep/myself/1.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/1.JPG" data-fancybox="*">
+                            <img src="deep/prewedding/1.JPG" alt="img">
+                        </a>
+                    </div>
+                        
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/1.JPG" data-fancybox="*">
+                            <img src="deep/product/1.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/2.JPG" data-fancybox="*">
+                            <img src="deep/babyparents/2.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/2.jpg" data-fancybox="*">
+                            <img src="deep/babybump/2.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/2.jpg" data-fancybox="*">
+                            <img src="deep/props/2.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/2.JPG" data-fancybox="*">
+                            <img src="deep/couple/2.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/2.jpg" data-fancybox="*">
+                            <img src="deep/family/2.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag industrial">
+                        <a href="deep/industrial/2.JPG" data-fancybox="*">
+                            <img src="deep/industrial/2.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/2.jpg" data-fancybox="*">
+                            <img src="deep/interior/2.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/2.JPG" data-fancybox="*">
+                            <img src="deep/masking/2.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/2.jpg" data-fancybox="*">
+                            <img src="deep/hair/2.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag myself">
+                        <a href="deep/myself/2.jpg" data-fancybox="*">
+                            <img src="deep/myself/2.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/2.jpg" data-fancybox="*">
+                            <img src="deep/prewedding/2.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/2.JPG" data-fancybox="*">
+                            <img src="deep/product/2.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/3.JPG" data-fancybox="*">
+                            <img src="deep/babyparents/3.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/3.jpg" data-fancybox="*">
+                            <img src="deep/babybump/3.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/3.jpg" data-fancybox="*">
+                            <img src="deep/props/3.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/3.jpg" data-fancybox="*">
+                            <img src="deep/couple/3.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/3.jpg" data-fancybox="*">
+                            <img src="deep/family/3.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag industrial">
+                        <a href="deep/industrial/3.JPG" data-fancybox="*">
+                            <img src="deep/industrial/3.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/3.JPG" data-fancybox="*">
+                            <img src="deep/interior/3.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/3.jpg" data-fancybox="*">
+                            <img src="deep/masking/3.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/3.jpg" data-fancybox="*">
+                            <img src="deep/hair/3.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag myself">
+                        <a href="deep/myself/3.jpg" data-fancybox="*">
+                            <img src="deep/myself/3.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/3.JPG" data-fancybox="*">
+                            <img src="deep/prewedding/3.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/3.JPG" data-fancybox="*">
+                            <img src="deep/product/3.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/4.jpg" data-fancybox="*">
+                            <img src="deep/babyparents/4.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/4.JPG" data-fancybox="*">
+                            <img src="deep/babybump/4.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/4.jpg" data-fancybox="*">
+                            <img src="deep/props/4.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/4.jpg" data-fancybox="*">
+                            <img src="deep/couple/4.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/4.jpg" data-fancybox="*">
+                            <img src="deep/family/4.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag industrial">
+                        <a href="deep/industrial/4.JPG" data-fancybox="*">
+                            <img src="deep/industrial/4.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/4.JPG" data-fancybox="*">
+                            <img src="deep/interior/4.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/4.JPG" data-fancybox="*">
+                            <img src="deep/masking/4.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/4.JPG" data-fancybox="*">
+                            <img src="deep/hair/4.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag myself">
+                        <a href="deep/myself/4.jpg" data-fancybox="*">
+                            <img src="deep/myself/4.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/4.jpg" data-fancybox="*">
+                            <img src="deep/prewedding/4.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag ">
+                        <a href="deep/product/4.JPG" data-fancybox="*">
+                            <img src="deep/product/4.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/5.jpg" data-fancybox="*">
+                            <img src="deep/babyparents/5.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/5.jpg" data-fancybox="*">
+                            <img src="deep/babybump/5.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/5.jpg" data-fancybox="*">
+                            <img src="deep/props/5.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/5.JPG" data-fancybox="*">
+                            <img src="deep/couple/5.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/5.jpg" data-fancybox="*">
+                            <img src="deep/family/5.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag industrial">
+                        <a href="deep/industrial/5.JPG" data-fancybox="*">
+                            <img src="deep/industrial/5.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/5.jpg" data-fancybox="*">
+                            <img src="deep/interior/5.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/5.JPG" data-fancybox="*">
+                            <img src="deep/masking/5.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/5.jpg" data-fancybox="*">
+                            <img src="deep/hair/5.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag myself">
+                        <a href="deep/myself/5.jpg" data-fancybox="*">
+                            <img src="deep/myself/5.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/5.jpg" data-fancybox="*">
+                            <img src="deep/prewedding/5.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/5.JPG" data-fancybox="*">
+                            <img src="deep/product/5.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/6.jpg" data-fancybox="*">
+                            <img src="deep/babyparents/6.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/6.JPG" data-fancybox="*">
+                            <img src="deep/babybump/6.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/6.jpg" data-fancybox="*">
+                            <img src="deep/props/6.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/6.jpg" data-fancybox="*">
+                            <img src="deep/couple/6.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/6.JPG" data-fancybox="*">
+                            <img src="deep/family/6.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag industrial">
+                        <a href="deep/industrial/6.JPG" data-fancybox="*">
+                            <img src="deep/industrial/6.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/6.JPG" data-fancybox="*">
+                            <img src="deep/interior/6.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/6.JPG" data-fancybox="*">
+                            <img src="deep/masking/6.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/6.jpg" data-fancybox="*">
+                            <img src="deep/hair/6.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag myself">
+                        <a href="deep/myself/6" data-fancybox="*">
+                            <img src="deep/myself/6" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/6.jpg" data-fancybox="*">
+                            <img src="deep/prewedding/6.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/6.JPG" data-fancybox="*">
+                            <img src="deep/product/6.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/7.jpg" data-fancybox="*">
+                            <img src="deep/babyparents/7.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/7.jpg" data-fancybox="*">
+                            <img src="deep/babybump/7.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/7.jpg" data-fancybox="*">
+                            <img src="deep/props/7.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/7.jpg" data-fancybox="*">
+                            <img src="deep/couple/7.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/7.JPG" data-fancybox="*">
+                            <img src="deep/family/7.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag industrial">
+                        <a href="deep/industrial/7.JPG" data-fancybox="*">
+                            <img src="deep/industrial/7.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/7.JPG" data-fancybox="*">
+                            <img src="deep/interior/7.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/7.jpg" data-fancybox="*">
+                            <img src="deep/masking/7.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/7.jpg" data-fancybox="*">
+                            <img src="deep/hair/7.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/7.jpg" data-fancybox="*">
+                            <img src="deep/prewedding/7.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/7.JPG" data-fancybox="*">
+                            <img src="deep/product/7.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/8.JPG" data-fancybox="*">
+                            <img src="deep/babyparents/8.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/8.jpg" data-fancybox="*">
+                            <img src="deep/babybump/8.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/8.jpg" data-fancybox="*">
+                            <img src="deep/props/8.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/8.JPG" data-fancybox="*">
+                            <img src="deep/couple/8.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/8.jpg" data-fancybox="*">
+                            <img src="deep/family/8.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag industrial">
+                        <a href="deep/industrial/8.jpg" data-fancybox="*">
+                            <img src="deep/industrial/8.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/8.JPG" data-fancybox="*">
+                            <img src="deep/interior/8.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/8.JPG" data-fancybox="*">
+                            <img src="deep/masking/8.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/8.JPG" data-fancybox="*">
+                            <img src="deep/hair/8.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/8.jpg" data-fancybox="*">
+                            <img src="deep/prewedding/8.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/8.JPG" data-fancybox="*">
+                            <img src="deep/" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/9.jpg" data-fancybox="*">
+                            <img src="deep/babyparents/9.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/9.jpg" data-fancybox="*">
+                            <img src="deep/babybump/9.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/9.jpg" data-fancybox="*">
+                            <img src="deep/props/9.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/9.jpg" data-fancybox="*">
+                            <img src="deep/couple/9.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/9.jpg" data-fancybox="*">
+                            <img src="deep/family/9.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/9.jpg" data-fancybox="*">
+                            <img src="deep/interior/9.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/9.jpg" data-fancybox="*">
+                            <img src="deep/masking/9.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/9.jpg" data-fancybox="*">
+                            <img src="deep/hair/9.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/9.jpg" data-fancybox="*">
+                            <img src="deep/prewedding/9.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/9.jpg" data-fancybox="*">
+                            <img src="deep/product/9.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babyparents">
+                        <a href="deep/babyparents/10.jpg" data-fancybox="*">
+                            <img src="deep/babyparents/10.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag babybump">
+                        <a href="deep/babybump/10.jpg" data-fancybox="*">
+                            <img src="deep/babybump/10.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag props">
+                        <a href="deep/props/10.jpg" data-fancybox="*">
+                            <img src="deep/props/10.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag couple">
+                        <a href="deep/couple/10.jpg" data-fancybox="*">
+                            <img src="deep/couple/10.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag family">
+                        <a href="deep/family/10.jpg" data-fancybox="*">
+                            <img src="deep/family/10.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag interior">
+                        <a href="deep/interior/10.jpg" data-fancybox="*">
+                            <img src="deep/interior/10.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag masking">
+                        <a href="deep/masking/10.jpg" data-fancybox="*">
+                            <img src="deep/masking/10.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag hair">
+                        <a href="deep/hair/10.jpg" data-fancybox="*">
+                            <img src="deep/hair/10.JPG" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag prewedding">
+                        <a href="deep/prewedding/10.jpg" data-fancybox="*">
+                            <img src="deep/prewedding/10.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 imag product">
+                        <a href="deep/product/10.jpg" data-fancybox="*">
+                            <img src="deep/product/10.JPG" alt="img">
+                        </a>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+
+    <!--arrow-up-->
+    <div id="scroll-to-top">
+        <i class="arrow up"></i>
+    </div>
+    <script>
+    const scrollBtn = document.querySelector("#scroll-to-top");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollBtn.style.bottom = "15px";
+        } else {
+            scrollBtn.style.bottom = "-300px";
+        }
+    };
+    
+    scrollBtn.addEventListener("click", function (e) {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    });
+    </script>
+    <!--arrow-up-->
+
+    
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <li><span>B-167/168, Pramukh arcade,</span></li>
+                <li><span>Kudasan, Gandhinagar,</span></li>
+                <li><span>Gujarat, India.</span></li>
+                <li><span>+91 8080681010</span></li>
+                <li><span>navanitpatel@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Navanit Patel. All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+        Designed by <a href="https://bootstrapmade.com/">DE3P</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+<script>
+    $("#test").on('click', function() {
+      $.fancybox.open([
+        {
+          src  : 'https://source.unsplash.com/IvfoDk30JnI/1500x1000',
+          opts : {
+            caption : 'First caption',
+          }
+        },
+        {
+          src  : 'https://source.unsplash.com/0JYgd2QuMfw/1500x1000',
+          opts : {
+            caption : 'Second caption',
+        }
+      }
+    ], {
+      protect: true,
+      animationEffect: "circular",
+      transitionEffect: "circular",
+      loop : false,
+      arrows: false,
+      buttons: [
+        "share",
+        "slideShow",
+        "fullScreen",
+        "close"
+      ],
+    });
+    });
+</script>
+
+
+<script>
+    $('.portfolio-container').isotope({
+        itemSelector: '.imag',
+        layoutMode: 'masonry',
+        stagger: 30
+    });
+    $('.menu ul li').click(function(){
+        $('.menu ul li').removeClass('active');
+        $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+        $('.portfolio-container').isotope({
+            filter: selector
+        });
+        return false;
+    });
+</script>
+
+</body>
+</html>
